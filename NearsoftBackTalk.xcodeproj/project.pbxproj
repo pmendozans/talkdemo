@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72D30A152089407100D385D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D30A142089407100D385D8 /* AppDelegate.swift */; };
+		72D30A172089407100D385D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D30A162089407100D385D8 /* ViewController.swift */; };
+		72D30A1A2089407100D385D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D30A182089407100D385D8 /* Main.storyboard */; };
+		72D30A1D2089407100D385D8 /* NearsoftBackTalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72D30A1B2089407100D385D8 /* NearsoftBackTalk.xcdatamodeld */; };
+		72D30A1F2089407200D385D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D30A1E2089407200D385D8 /* Assets.xcassets */; };
+		72D30A222089407200D385D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D30A202089407200D385D8 /* LaunchScreen.storyboard */; };
+		72D30A2D2089407200D385D8 /* NearsoftBackTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D30A2C2089407200D385D8 /* NearsoftBackTalkTests.swift */; };
+		72D30A382089407200D385D8 /* NearsoftBackTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D30A372089407200D385D8 /* NearsoftBackTalkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72D30A292089407200D385D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72D30A092089407100D385D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72D30A102089407100D385D8;
+			remoteInfo = NearsoftBackTalk;
+		};
+		72D30A342089407200D385D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72D30A092089407100D385D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72D30A102089407100D385D8;
+			remoteInfo = NearsoftBackTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72D30A112089407100D385D8 /* NearsoftBackTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearsoftBackTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D30A142089407100D385D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72D30A162089407100D385D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72D30A192089407100D385D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72D30A1C2089407100D385D8 /* NearsoftBackTalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NearsoftBackTalk.xcdatamodel; sourceTree = "<group>"; };
+		72D30A1E2089407200D385D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72D30A212089407200D385D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72D30A232089407200D385D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72D30A282089407200D385D8 /* NearsoftBackTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearsoftBackTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D30A2C2089407200D385D8 /* NearsoftBackTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearsoftBackTalkTests.swift; sourceTree = "<group>"; };
+		72D30A2E2089407200D385D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72D30A332089407200D385D8 /* NearsoftBackTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearsoftBackTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D30A372089407200D385D8 /* NearsoftBackTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearsoftBackTalkUITests.swift; sourceTree = "<group>"; };
+		72D30A392089407200D385D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72D30A0E2089407100D385D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D30A252089407200D385D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D30A302089407200D385D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72D30A082089407100D385D8 = {
+			isa = PBXGroup;
+			children = (
+				72D30A132089407100D385D8 /* NearsoftBackTalk */,
+				72D30A2B2089407200D385D8 /* NearsoftBackTalkTests */,
+				72D30A362089407200D385D8 /* NearsoftBackTalkUITests */,
+				72D30A122089407100D385D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72D30A122089407100D385D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72D30A112089407100D385D8 /* NearsoftBackTalk.app */,
+				72D30A282089407200D385D8 /* NearsoftBackTalkTests.xctest */,
+				72D30A332089407200D385D8 /* NearsoftBackTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72D30A132089407100D385D8 /* NearsoftBackTalk */ = {
+			isa = PBXGroup;
+			children = (
+				72D30A142089407100D385D8 /* AppDelegate.swift */,
+				72D30A162089407100D385D8 /* ViewController.swift */,
+				72D30A182089407100D385D8 /* Main.storyboard */,
+				72D30A1E2089407200D385D8 /* Assets.xcassets */,
+				72D30A202089407200D385D8 /* LaunchScreen.storyboard */,
+				72D30A232089407200D385D8 /* Info.plist */,
+				72D30A1B2089407100D385D8 /* NearsoftBackTalk.xcdatamodeld */,
+			);
+			path = NearsoftBackTalk;
+			sourceTree = "<group>";
+		};
+		72D30A2B2089407200D385D8 /* NearsoftBackTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				72D30A2C2089407200D385D8 /* NearsoftBackTalkTests.swift */,
+				72D30A2E2089407200D385D8 /* Info.plist */,
+			);
+			path = NearsoftBackTalkTests;
+			sourceTree = "<group>";
+		};
+		72D30A362089407200D385D8 /* NearsoftBackTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72D30A372089407200D385D8 /* NearsoftBackTalkUITests.swift */,
+				72D30A392089407200D385D8 /* Info.plist */,
+			);
+			path = NearsoftBackTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72D30A102089407100D385D8 /* NearsoftBackTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D30A3C2089407200D385D8 /* Build configuration list for PBXNativeTarget "NearsoftBackTalk" */;
+			buildPhases = (
+				72D30A0D2089407100D385D8 /* Sources */,
+				72D30A0E2089407100D385D8 /* Frameworks */,
+				72D30A0F2089407100D385D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearsoftBackTalk;
+			productName = NearsoftBackTalk;
+			productReference = 72D30A112089407100D385D8 /* NearsoftBackTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72D30A272089407200D385D8 /* NearsoftBackTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D30A3F2089407200D385D8 /* Build configuration list for PBXNativeTarget "NearsoftBackTalkTests" */;
+			buildPhases = (
+				72D30A242089407200D385D8 /* Sources */,
+				72D30A252089407200D385D8 /* Frameworks */,
+				72D30A262089407200D385D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72D30A2A2089407200D385D8 /* PBXTargetDependency */,
+			);
+			name = NearsoftBackTalkTests;
+			productName = NearsoftBackTalkTests;
+			productReference = 72D30A282089407200D385D8 /* NearsoftBackTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72D30A322089407200D385D8 /* NearsoftBackTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D30A422089407200D385D8 /* Build configuration list for PBXNativeTarget "NearsoftBackTalkUITests" */;
+			buildPhases = (
+				72D30A2F2089407200D385D8 /* Sources */,
+				72D30A302089407200D385D8 /* Frameworks */,
+				72D30A312089407200D385D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72D30A352089407200D385D8 /* PBXTargetDependency */,
+			);
+			name = NearsoftBackTalkUITests;
+			productName = NearsoftBackTalkUITests;
+			productReference = 72D30A332089407200D385D8 /* NearsoftBackTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72D30A092089407100D385D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = nearsoft;
+				TargetAttributes = {
+					72D30A102089407100D385D8 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					72D30A272089407200D385D8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 72D30A102089407100D385D8;
+					};
+					72D30A322089407200D385D8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 72D30A102089407100D385D8;
+					};
+				};
+			};
+			buildConfigurationList = 72D30A0C2089407100D385D8 /* Build configuration list for PBXProject "NearsoftBackTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72D30A082089407100D385D8;
+			productRefGroup = 72D30A122089407100D385D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72D30A102089407100D385D8 /* NearsoftBackTalk */,
+				72D30A272089407200D385D8 /* NearsoftBackTalkTests */,
+				72D30A322089407200D385D8 /* NearsoftBackTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72D30A0F2089407100D385D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D30A222089407200D385D8 /* LaunchScreen.storyboard in Resources */,
+				72D30A1F2089407200D385D8 /* Assets.xcassets in Resources */,
+				72D30A1A2089407100D385D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D30A262089407200D385D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D30A312089407200D385D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72D30A0D2089407100D385D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D30A172089407100D385D8 /* ViewController.swift in Sources */,
+				72D30A1D2089407100D385D8 /* NearsoftBackTalk.xcdatamodeld in Sources */,
+				72D30A152089407100D385D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D30A242089407200D385D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D30A2D2089407200D385D8 /* NearsoftBackTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D30A2F2089407200D385D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D30A382089407200D385D8 /* NearsoftBackTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72D30A2A2089407200D385D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72D30A102089407100D385D8 /* NearsoftBackTalk */;
+			targetProxy = 72D30A292089407200D385D8 /* PBXContainerItemProxy */;
+		};
+		72D30A352089407200D385D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72D30A102089407100D385D8 /* NearsoftBackTalk */;
+			targetProxy = 72D30A342089407200D385D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72D30A182089407100D385D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72D30A192089407100D385D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72D30A202089407200D385D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72D30A212089407200D385D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72D30A3A2089407200D385D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72D30A3B2089407200D385D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72D30A3D2089407200D385D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NearsoftBackTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nearsoft.NearsoftBackTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72D30A3E2089407200D385D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NearsoftBackTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nearsoft.NearsoftBackTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72D30A402089407200D385D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NearsoftBackTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nearsoft.NearsoftBackTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearsoftBackTalk.app/NearsoftBackTalk";
+			};
+			name = Debug;
+		};
+		72D30A412089407200D385D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NearsoftBackTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nearsoft.NearsoftBackTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearsoftBackTalk.app/NearsoftBackTalk";
+			};
+			name = Release;
+		};
+		72D30A432089407200D385D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NearsoftBackTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nearsoft.NearsoftBackTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NearsoftBackTalk;
+			};
+			name = Debug;
+		};
+		72D30A442089407200D385D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NearsoftBackTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nearsoft.NearsoftBackTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NearsoftBackTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72D30A0C2089407100D385D8 /* Build configuration list for PBXProject "NearsoftBackTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D30A3A2089407200D385D8 /* Debug */,
+				72D30A3B2089407200D385D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D30A3C2089407200D385D8 /* Build configuration list for PBXNativeTarget "NearsoftBackTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D30A3D2089407200D385D8 /* Debug */,
+				72D30A3E2089407200D385D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D30A3F2089407200D385D8 /* Build configuration list for PBXNativeTarget "NearsoftBackTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D30A402089407200D385D8 /* Debug */,
+				72D30A412089407200D385D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D30A422089407200D385D8 /* Build configuration list for PBXNativeTarget "NearsoftBackTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D30A432089407200D385D8 /* Debug */,
+				72D30A442089407200D385D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72D30A1B2089407100D385D8 /* NearsoftBackTalk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72D30A1C2089407100D385D8 /* NearsoftBackTalk.xcdatamodel */,
+			);
+			currentVersion = 72D30A1C2089407100D385D8 /* NearsoftBackTalk.xcdatamodel */;
+			path = NearsoftBackTalk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 72D30A092089407100D385D8 /* Project object */;
+}
