@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FD5E26465DB4EC8A4CE0894 /* Pods_NearsoftBackTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF588C1B9A8F10697D6EB8B /* Pods_NearsoftBackTalkTests.framework */; };
+		6E589F4B42CEC14EE97DA60B /* Pods_NearsoftBackTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1200EFBA2BF3D0B020631101 /* Pods_NearsoftBackTalkUITests.framework */; };
+		722A5E0120894A6D00125A34 /* WeatherSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A5E0020894A6D00125A34 /* WeatherSerializer.swift */; };
+		722A5E0320894C5900125A34 /* ErrorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A5E0220894C5900125A34 /* ErrorHelper.swift */; };
+		722A5E0520894D9E00125A34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 722A5E0420894D9E00125A34 /* GoogleService-Info.plist */; };
+		722A5E08208955DD00125A34 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A5E07208955DD00125A34 /* Weather.swift */; };
+		722A5E0E2089657300125A34 /* WeaterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A5E0D2089657300125A34 /* WeaterRouter.swift */; };
+		722A5E11208969B700125A34 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A5E10208969B700125A34 /* WeatherService.swift */; };
+		722A5E142089757900125A34 /* WeatherTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A5E132089757900125A34 /* WeatherTracker.swift */; };
+		722A5E1620897E8900125A34 /* IconHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A5E1520897E8900125A34 /* IconHelper.swift */; };
 		72D30A152089407100D385D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D30A142089407100D385D8 /* AppDelegate.swift */; };
 		72D30A172089407100D385D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D30A162089407100D385D8 /* ViewController.swift */; };
 		72D30A1A2089407100D385D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D30A182089407100D385D8 /* Main.storyboard */; };
@@ -15,6 +25,8 @@
 		72D30A222089407200D385D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D30A202089407200D385D8 /* LaunchScreen.storyboard */; };
 		72D30A2D2089407200D385D8 /* NearsoftBackTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D30A2C2089407200D385D8 /* NearsoftBackTalkTests.swift */; };
 		72D30A382089407200D385D8 /* NearsoftBackTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D30A372089407200D385D8 /* NearsoftBackTalkUITests.swift */; };
+		72D30A4B2089426400D385D8 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D30A4A2089426400D385D8 /* ApiManager.swift */; };
+		C73D9534DBAD6F3BFAEC42B8 /* Pods_NearsoftBackTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05587686B65EAB273DCEFBDE /* Pods_NearsoftBackTalk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05587686B65EAB273DCEFBDE /* Pods_NearsoftBackTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NearsoftBackTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1200EFBA2BF3D0B020631101 /* Pods_NearsoftBackTalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NearsoftBackTalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE3261AA950100749E96090 /* Pods-NearsoftBackTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearsoftBackTalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NearsoftBackTalkTests/Pods-NearsoftBackTalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		722A5E0020894A6D00125A34 /* WeatherSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSerializer.swift; sourceTree = "<group>"; };
+		722A5E0220894C5900125A34 /* ErrorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHelper.swift; sourceTree = "<group>"; };
+		722A5E0420894D9E00125A34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		722A5E07208955DD00125A34 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		722A5E0D2089657300125A34 /* WeaterRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaterRouter.swift; sourceTree = "<group>"; };
+		722A5E10208969B700125A34 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		722A5E132089757900125A34 /* WeatherTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTracker.swift; sourceTree = "<group>"; };
+		722A5E1520897E8900125A34 /* IconHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconHelper.swift; sourceTree = "<group>"; };
 		72D30A112089407100D385D8 /* NearsoftBackTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearsoftBackTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D30A142089407100D385D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72D30A162089407100D385D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +72,13 @@
 		72D30A332089407200D385D8 /* NearsoftBackTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearsoftBackTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D30A372089407200D385D8 /* NearsoftBackTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearsoftBackTalkUITests.swift; sourceTree = "<group>"; };
 		72D30A392089407200D385D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72D30A4A2089426400D385D8 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		802120762140570324FC55E2 /* Pods-NearsoftBackTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearsoftBackTalkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NearsoftBackTalkUITests/Pods-NearsoftBackTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8757D1E57384903C5A1E5BAE /* Pods-NearsoftBackTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearsoftBackTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NearsoftBackTalk/Pods-NearsoftBackTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		8CF588C1B9A8F10697D6EB8B /* Pods_NearsoftBackTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NearsoftBackTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCF1F0867F04E75F15F55C1 /* Pods-NearsoftBackTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearsoftBackTalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NearsoftBackTalkTests/Pods-NearsoftBackTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D38D7690611E84FA34942211 /* Pods-NearsoftBackTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearsoftBackTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-NearsoftBackTalk/Pods-NearsoftBackTalk.release.xcconfig"; sourceTree = "<group>"; };
+		F2A8EE8708B99407261C041E /* Pods-NearsoftBackTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearsoftBackTalkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NearsoftBackTalkUITests/Pods-NearsoftBackTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C73D9534DBAD6F3BFAEC42B8 /* Pods_NearsoftBackTalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD5E26465DB4EC8A4CE0894 /* Pods_NearsoftBackTalkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E589F4B42CEC14EE97DA60B /* Pods_NearsoftBackTalkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56F15C7881AB31F2F4B43A95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05587686B65EAB273DCEFBDE /* Pods_NearsoftBackTalk.framework */,
+				8CF588C1B9A8F10697D6EB8B /* Pods_NearsoftBackTalkTests.framework */,
+				1200EFBA2BF3D0B020631101 /* Pods_NearsoftBackTalkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		722A5DFF20894A5900125A34 /* Serializer */ = {
+			isa = PBXGroup;
+			children = (
+				722A5E0020894A6D00125A34 /* WeatherSerializer.swift */,
+			);
+			path = Serializer;
+			sourceTree = "<group>";
+		};
+		722A5E0620894DA800125A34 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72D30A1E2089407200D385D8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		722A5E0C2089656800125A34 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				722A5E0D2089657300125A34 /* WeaterRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		722A5E0F208969A900125A34 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				722A5E10208969B700125A34 /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		722A5E122089756900125A34 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				722A5E132089757900125A34 /* WeatherTracker.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
 		72D30A082089407100D385D8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +166,8 @@
 				72D30A2B2089407200D385D8 /* NearsoftBackTalkTests */,
 				72D30A362089407200D385D8 /* NearsoftBackTalkUITests */,
 				72D30A122089407100D385D8 /* Products */,
+				CFB2CE403256A389567FD9B5 /* Pods */,
+				56F15C7881AB31F2F4B43A95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +184,15 @@
 		72D30A132089407100D385D8 /* NearsoftBackTalk */ = {
 			isa = PBXGroup;
 			children = (
+				722A5E0620894DA800125A34 /* Resources */,
+				72D30A492089425400D385D8 /* Common */,
+				72D30A482089424D00D385D8 /* Views */,
+				72D30A472089424600D385D8 /* Controllers */,
+				72D30A462089423800D385D8 /* Models */,
+				72D30A452089422600D385D8 /* Networking */,
 				72D30A142089407100D385D8 /* AppDelegate.swift */,
-				72D30A162089407100D385D8 /* ViewController.swift */,
-				72D30A182089407100D385D8 /* Main.storyboard */,
-				72D30A1E2089407200D385D8 /* Assets.xcassets */,
-				72D30A202089407200D385D8 /* LaunchScreen.storyboard */,
 				72D30A232089407200D385D8 /* Info.plist */,
+				722A5E0420894D9E00125A34 /* GoogleService-Info.plist */,
 				72D30A1B2089407100D385D8 /* NearsoftBackTalk.xcdatamodeld */,
 			);
 			path = NearsoftBackTalk;
@@ -128,6 +216,65 @@
 			path = NearsoftBackTalkUITests;
 			sourceTree = "<group>";
 		};
+		72D30A452089422600D385D8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				722A5E122089756900125A34 /* Firebase */,
+				722A5E0F208969A900125A34 /* Services */,
+				722A5E0C2089656800125A34 /* Router */,
+				722A5DFF20894A5900125A34 /* Serializer */,
+				72D30A4A2089426400D385D8 /* ApiManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		72D30A462089423800D385D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				722A5E07208955DD00125A34 /* Weather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72D30A472089424600D385D8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72D30A162089407100D385D8 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		72D30A482089424D00D385D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72D30A182089407100D385D8 /* Main.storyboard */,
+				72D30A202089407200D385D8 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72D30A492089425400D385D8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				722A5E0220894C5900125A34 /* ErrorHelper.swift */,
+				722A5E1520897E8900125A34 /* IconHelper.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CFB2CE403256A389567FD9B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8757D1E57384903C5A1E5BAE /* Pods-NearsoftBackTalk.debug.xcconfig */,
+				D38D7690611E84FA34942211 /* Pods-NearsoftBackTalk.release.xcconfig */,
+				BFCF1F0867F04E75F15F55C1 /* Pods-NearsoftBackTalkTests.debug.xcconfig */,
+				2AE3261AA950100749E96090 /* Pods-NearsoftBackTalkTests.release.xcconfig */,
+				802120762140570324FC55E2 /* Pods-NearsoftBackTalkUITests.debug.xcconfig */,
+				F2A8EE8708B99407261C041E /* Pods-NearsoftBackTalkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +282,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72D30A3C2089407200D385D8 /* Build configuration list for PBXNativeTarget "NearsoftBackTalk" */;
 			buildPhases = (
+				1DB8AF4D4B732D400F9D8A78 /* [CP] Check Pods Manifest.lock */,
 				72D30A0D2089407100D385D8 /* Sources */,
 				72D30A0E2089407100D385D8 /* Frameworks */,
 				72D30A0F2089407100D385D8 /* Resources */,
+				9E2735A55E3AA6864461FB03 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72D30A3F2089407200D385D8 /* Build configuration list for PBXNativeTarget "NearsoftBackTalkTests" */;
 			buildPhases = (
+				2826CF770D597D8F61C712B0 /* [CP] Check Pods Manifest.lock */,
 				72D30A242089407200D385D8 /* Sources */,
 				72D30A252089407200D385D8 /* Frameworks */,
 				72D30A262089407200D385D8 /* Resources */,
@@ -170,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72D30A422089407200D385D8 /* Build configuration list for PBXNativeTarget "NearsoftBackTalkUITests" */;
 			buildPhases = (
+				2490241B6487E49D6280B8BB /* [CP] Check Pods Manifest.lock */,
 				72D30A2F2089407200D385D8 /* Sources */,
 				72D30A302089407200D385D8 /* Frameworks */,
 				72D30A312089407200D385D8 /* Resources */,
@@ -233,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72D30A222089407200D385D8 /* LaunchScreen.storyboard in Resources */,
+				722A5E0520894D9E00125A34 /* GoogleService-Info.plist in Resources */,
 				72D30A1F2089407200D385D8 /* Assets.xcassets in Resources */,
 				72D30A1A2089407100D385D8 /* Main.storyboard in Resources */,
 			);
@@ -254,14 +406,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DB8AF4D4B732D400F9D8A78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NearsoftBackTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2490241B6487E49D6280B8BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NearsoftBackTalkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2826CF770D597D8F61C712B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NearsoftBackTalkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2735A55E3AA6864461FB03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NearsoftBackTalk/Pods-NearsoftBackTalk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NearsoftBackTalk/Pods-NearsoftBackTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		72D30A0D2089407100D385D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D30A4B2089426400D385D8 /* ApiManager.swift in Sources */,
 				72D30A172089407100D385D8 /* ViewController.swift in Sources */,
 				72D30A1D2089407100D385D8 /* NearsoftBackTalk.xcdatamodeld in Sources */,
+				722A5E0120894A6D00125A34 /* WeatherSerializer.swift in Sources */,
+				722A5E11208969B700125A34 /* WeatherService.swift in Sources */,
+				722A5E0320894C5900125A34 /* ErrorHelper.swift in Sources */,
 				72D30A152089407100D385D8 /* AppDelegate.swift in Sources */,
+				722A5E0E2089657300125A34 /* WeaterRouter.swift in Sources */,
+				722A5E08208955DD00125A34 /* Weather.swift in Sources */,
+				722A5E1620897E8900125A34 /* IconHelper.swift in Sources */,
+				722A5E142089757900125A34 /* WeatherTracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +679,7 @@
 		};
 		72D30A3D2089407200D385D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8757D1E57384903C5A1E5BAE /* Pods-NearsoftBackTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +697,7 @@
 		};
 		72D30A3E2089407200D385D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D38D7690611E84FA34942211 /* Pods-NearsoftBackTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +715,7 @@
 		};
 		72D30A402089407200D385D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFCF1F0867F04E75F15F55C1 /* Pods-NearsoftBackTalkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +736,7 @@
 		};
 		72D30A412089407200D385D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE3261AA950100749E96090 /* Pods-NearsoftBackTalkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +757,7 @@
 		};
 		72D30A432089407200D385D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802120762140570324FC55E2 /* Pods-NearsoftBackTalkUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +777,7 @@
 		};
 		72D30A442089407200D385D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2A8EE8708B99407261C041E /* Pods-NearsoftBackTalkUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
